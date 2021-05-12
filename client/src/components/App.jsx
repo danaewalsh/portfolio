@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+// import NavBar from './NavBar';
+import AboutMe from './AboutMe.jsx';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        Hello World
-      </div>
-    );
-  }
-}
+const App = (props) => (
+  <>
+    <div>
+      Hello Dana
+    </div>
+    <AboutMe />
+  </>
+);
 
 export default App;
