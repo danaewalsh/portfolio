@@ -6,7 +6,7 @@ import AboutMe from './AboutMe.jsx';
 const App = (props) => (
   <>
     <Intro />
-
+    <AboutMe />
   </>
 );
 
