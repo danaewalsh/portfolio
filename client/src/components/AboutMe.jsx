@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SectionDiv from './sharedStyles/sectionDiv.js';
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -11,9 +12,9 @@ class AboutMe extends React.Component {
 
   render() {
     return (
-      <div>
-        About Me
-      </div>
+      <SectionDiv>
+        ...
+      </SectionDiv>
     );
   }
 }
