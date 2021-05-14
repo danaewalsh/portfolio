@@ -12,9 +12,12 @@ class Intro extends React.Component {
   render() {
     return (
       <BackgroundPhoto>
-        <Line style={{ fontSize: '45px' }}>Dana Walsh</Line>
-        <Line>Software Engineer</Line>
-        <Line> Bay Area, California</Line>
+        <Group>
+          <Line style={{ fontSize: '45px' }}>Dana Walsh</Line>
+          <Line>Software Engineer</Line>
+          <Line> Bay Area, California</Line>
+        </Group>
+
       </BackgroundPhoto>
     );
   }
@@ -33,5 +36,10 @@ const BackgroundPhoto = styled.div`
 `;
 
 const Line = styled.div`
-  font-size: 35px;
+  font-size: 25px;
+  text-shadow: 1px 1px white;
+`;
+
+const Group = styled.div`
+  padding: 275px 0px;
 `;
