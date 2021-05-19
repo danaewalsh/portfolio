@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Intro = () => (
   <BackgroundPhoto>
     <Group>
-      <Line style={{ fontSize: '45px' }}>Dana Walsh</Line>
+      <Line style={{ fontSize: '65px', marginBottom: '-12px' }}>Dana Walsh</Line>
       <Line>Software Engineer</Line>
       <Line> Bay Area, California</Line>
     </Group>

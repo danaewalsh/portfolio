@@ -5,12 +5,12 @@ import AboutMe from './AboutMe.jsx';
 import TechStack from './TechStack.jsx';
 
 const App = (props) => (
-  <>
+  <div id="home">
     <NavigationBar />
     <Intro />
     <AboutMe />
     <TechStack />
-  </>
+  </div>
 );
 
 export default App;
