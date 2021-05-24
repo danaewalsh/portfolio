@@ -35,7 +35,7 @@ const TechStack = () => {
     <SectionDiv style={{ background: '#65BAD6' }}>
       <SectionHeader>
         <Title style={{ color: 'white' }}>Technical Skills</Title>
-        <HeaderLine style={{ borderBottom: '2px solid #FEC200' }} />
+        <HeaderLine style={{ borderBottom: '2px solid white' }} />
       </SectionHeader>
       <SkillsContainer className="skills-container">{skills}</SkillsContainer>
     </SectionDiv>
@@ -49,6 +49,7 @@ const SkillsContainer = styled.div`
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding: 1rem 3rem;
+  margin: 0px 10%;
 `;
 
 const Skill = styled.div`
