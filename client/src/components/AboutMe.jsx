@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 import SectionDiv from './sharedStyles/sectionDiv.js';
 import Container from './sharedStyles/flexBoxContainer.js';
 import FlexComponent from './sharedStyles/flexBoxComponent.js';
@@ -7,11 +8,8 @@ import FlexComponent from './sharedStyles/flexBoxComponent.js';
 const AboutMe = () => (
   <SectionDiv id="about">
     <Container>
-      <FlexComponent>
-        <Image src="swissPhoto.png" alt="Photo in the Swiss Alps" />
-      </FlexComponent>
       <FlexComponent style={{ flexDirection: 'column' }}>
-        <InnerDiv>
+        <InnerDiv style={{ paddingTop: '70px' }}>
           Hello world!
         </InnerDiv>
         <InnerDiv style={{ padding: '5px 50px' }}>
@@ -20,17 +18,21 @@ const AboutMe = () => (
         <InnerDiv style={{ padding: '20px 50px' }}>
           When I'm not coding you'll find me in my garden or out on a hike, and I'm always accompanied by my two rescue dogs. Please feel free to reach out with any questions or if you just want to chat!
         </InnerDiv>
+        <InnerDiv>
+          <a
+            href="https://drive.google.com/file/d/1ec0Utfgl33d4dvTX8m5xYzxEiwtH2Xv5/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p className="cta-line">
+              <span> Download Resume</span>
+              <PictureAsPdfIcon className="pdf-icon" />
+            </p>
+          </a>
+        </InnerDiv>
       </FlexComponent>
-    </Container>
-    <Container>
       <FlexComponent>
-        Front-End
-      </FlexComponent>
-      <FlexComponent>
-        BackEnd
-      </FlexComponent>
-      <FlexComponent>
-        Frameworks / Libraries
+        <Image src="swissPhoto.png" alt="Photo in the Swiss Alps" />
       </FlexComponent>
     </Container>
   </SectionDiv>
@@ -39,11 +41,11 @@ const AboutMe = () => (
 export default AboutMe;
 
 const InnerDiv = styled.div`
-  padding: 20px;
+  padding: 10px;
 `;
 
 const Image = styled.img`
-  height: 300px;
-  border-radius: 5px;
-  padding-top: 50px;
+  height: 350px;
+  margin: auto;
+  border-radius: 15px;
 `;
