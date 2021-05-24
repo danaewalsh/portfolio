@@ -4,12 +4,19 @@ import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 import SectionDiv from './sharedStyles/sectionDiv.js';
 import Container from './sharedStyles/flexBoxContainer.js';
 import FlexComponent from './sharedStyles/flexBoxComponent.js';
+import SectionHeader from './sharedStyles/sectionHeader.js';
+import HeaderLine from './sharedStyles/headerLine.js';
+import Title from './sharedStyles/sectionTitle.js';
 
 const AboutMe = () => (
   <SectionDiv id="about">
+    <SectionHeader>
+      <Title>About Me</Title>
+      <HeaderLine />
+    </SectionHeader>
     <Container>
       <FlexComponent style={{ flexDirection: 'column' }}>
-        <InnerDiv style={{ paddingTop: '70px' }}>
+        <InnerDiv style={{ paddingTop: '40px' }}>
           Hello world!
         </InnerDiv>
         <InnerDiv style={{ padding: '5px 50px' }}>
@@ -48,4 +55,5 @@ const Image = styled.img`
   height: 350px;
   margin: auto;
   border-radius: 15px;
+  margin-top: 40px;
 `;
