@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const SectionDiv = styled.div`
-  height: 500px;
+  height: auto;
   width: 100%;
   background: #FEC201;
   margin: 5px;

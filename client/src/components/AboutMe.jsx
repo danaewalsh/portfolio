@@ -1,11 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import SectionDiv from './sharedStyles/sectionDiv.js';
+import Container from './sharedStyles/flexBoxContainer.js';
+import FlexComponent from './sharedStyles/flexBoxComponent.js';
 
 const AboutMe = () => (
   <SectionDiv id="about">
     <Container>
-      <FlexComponent style={{ flexDirection: 'column',  }}>
+      <FlexComponent>
+        <Image src="swissPhoto.png" alt="Photo in the Swiss Alps" />
+      </FlexComponent>
+      <FlexComponent style={{ flexDirection: 'column' }}>
         <InnerDiv>
           Hello world!
         </InnerDiv>
@@ -16,8 +21,16 @@ const AboutMe = () => (
           When I'm not coding you'll find me in my garden or out on a hike, and I'm always accompanied by my two rescue dogs. Please feel free to reach out with any questions or if you just want to chat!
         </InnerDiv>
       </FlexComponent>
+    </Container>
+    <Container>
       <FlexComponent>
-        <Image src="swissPhoto.png" alt="Photo in the Swiss Alps"/>
+        Front-End
+      </FlexComponent>
+      <FlexComponent>
+        BackEnd
+      </FlexComponent>
+      <FlexComponent>
+        Frameworks / Libraries
       </FlexComponent>
     </Container>
   </SectionDiv>
@@ -25,24 +38,12 @@ const AboutMe = () => (
 
 export default AboutMe;
 
-const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-const FlexComponent = styled.div`
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 const InnerDiv = styled.div`
   padding: 20px;
 `;
 
 const Image = styled.img`
-  height: 65%;
+  height: 300px;
   border-radius: 5px;
+  padding-top: 50px;
 `;
