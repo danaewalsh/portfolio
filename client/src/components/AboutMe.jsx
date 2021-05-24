@@ -55,5 +55,4 @@ const Image = styled.img`
   height: 350px;
   margin: auto;
   border-radius: 15px;
-  margin-top: 40px;
 `;
