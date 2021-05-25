@@ -1,5 +1,7 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
+/* eslint-disable camelcase */
 import React from 'react';
-import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import styled from 'styled-components';
 
@@ -22,12 +24,6 @@ const ProjectsCard = (props) => {
       <h4>Tech Stack:</h4>
       <p>{tech_stack}</p>
       <div className="icon-row">
-        <a
-          href={site_link}
-          target="_blank"
-          rel="noreferrer noopener"
-          aria-label={`Link to ${title} website`}
-        />
         {github_link && (
           <a
             href={github_link}

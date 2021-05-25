@@ -1,6 +1,9 @@
+/* eslint-disable import/extensions */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable max-len */
 import React from 'react';
 import styled from 'styled-components';
-import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
+import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import SectionDiv from './sharedStyles/sectionDiv.js';
 import Container from './sharedStyles/flexBoxContainer.js';
 import FlexComponent from './sharedStyles/flexBoxComponent.js';
@@ -19,10 +22,10 @@ const AboutMe = () => (
         <InnerDiv style={{ paddingTop: '40px' }}>
           Hello world!
         </InnerDiv>
-        <InnerDiv >
+        <InnerDiv>
           My name is Dana Walsh, and I am a Full Stack Software Engineer. I am passionate about technology that makes a difference and tangibly improves the world. I am currently working on passion projects while on the look out for new employment opportunities. I have a diverse background ranging from tourism to tech sales to healthcare. I bring a unique and well rounded perspective to any team, and pride myself on being the ultimate team player.
         </InnerDiv>
-        <InnerDiv >
+        <InnerDiv>
           When I'm not coding you'll find me in my garden or out on a hike, and I'm always accompanied by my two rescue dogs. Please feel free to reach out with any questions or if you just want to chat!
         </InnerDiv>
         <InnerDiv>

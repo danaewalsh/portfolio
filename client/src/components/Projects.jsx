@@ -1,8 +1,8 @@
+/* eslint-disable react/no-array-index-key */
+/* eslint-disable import/extensions */
 import React from 'react';
 import styled from 'styled-components';
 import SectionDiv from './sharedStyles/sectionDiv.js';
-import Container from './sharedStyles/flexBoxContainer.js';
-import FlexComponent from './sharedStyles/flexBoxComponent.js';
 import SectionHeader from './sharedStyles/sectionHeader.js';
 import HeaderLine from './sharedStyles/headerLine.js';
 import Title from './sharedStyles/sectionTitle.js';
@@ -13,7 +13,7 @@ const ProjectsList = () => {
   const projects = projectData.map((project, i) => <ProjectCard key={i} project={project} />);
 
   return (
-    <SectionDiv style={{ background: '#FEC200' }}>
+    <SectionDiv id="projects" style={{ background: '#FEC200' }}>
       <SectionHeader>
         <Title>Featured Projects</Title>
         <HeaderLine />

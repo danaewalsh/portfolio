@@ -7,6 +7,3 @@ const FlexComponent = styled.div`
 `;
 
 export default FlexComponent;
-
-//  overflow: auto;
-//  max-height: 450px;
