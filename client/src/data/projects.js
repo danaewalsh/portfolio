@@ -13,7 +13,7 @@ export const projectData = [
     title: 'System Design',
     tech_stack: 'MySQL, Express, EC2, S3, Docker, Loader.io, K6, Nginx',
     overview:
-      'I built out and optimized the back end API for the Products data of an e-commerce website. This included cleaning and loading 50 millions records into a MySQL database, optimizing query speeds to <2ms, load-testing via K6 and Loader.io, containerizing services via Docker.io, and implementing a Nginx load balancer.',
+      'I built out and optimized the back end API for the Products data of an e-commerce website. This included cleaning and loading 50 millions records into a MySQL database, optimizing query speeds to <2ms, load-testing via K6 and Loader.io, and containerizing services via Docker.io.',
     features: '',
     image: 'Loader.io.png',
     github_link: 'https://github.com/Mighty-Mesquite/products_api',

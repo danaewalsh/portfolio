@@ -31,4 +31,5 @@ const ProjectsContainer = styled.div`
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding: 2rem 3rem;
+  margin: 0px 10%;
 `;
