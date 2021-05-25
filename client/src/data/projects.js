@@ -23,7 +23,7 @@ export const projectData = [
     overview:
       'I was challenged to complete a full stack project in 2 days, so I built this garden-assistant application. Sage Advice tracks the plants in a user\'s garden, and uses data from an external API to present plant specific information',
     features: '',
-    image: 'Loader.io.png',
-    github_link: 'https://github.com/Mighty-Mesquite/products_api',
+    image: 'SageAdvice.png',
+    github_link: 'https://github.com/danaewalsh/sageadvice',
   },
 ];
