@@ -3,6 +3,7 @@ import NavigationBar from './NavBar.jsx';
 import Intro from './Intro.jsx';
 import AboutMe from './AboutMe.jsx';
 import TechStack from './TechStack.jsx';
+import ProjectsList from './Projects.jsx';
 
 const App = (props) => (
   <div id="home">
@@ -10,6 +11,7 @@ const App = (props) => (
     <Intro />
     <AboutMe />
     <TechStack />
+    <ProjectsList />
   </div>
 );
 

@@ -62,6 +62,9 @@ const Skill = styled.div`
   color: white;
   letter-spacing: 0.5px;
   transition: all 0.5s ease;
+  &:hover {
+    color: #FEC200;
+  }
 `;
 
 const Icon = styled.i`
