@@ -20,12 +20,20 @@ class ContactMe extends React.Component {
     return (
       <SectionDiv style={{ background: '#65BAD6' }}>
         <SectionHeader>
-          <Title style={{ color: 'white' }}>Contact Me</Title>
+          <Title style={{ color: 'white' }}>Contact</Title>
           <HeaderLine style={{ borderBottom: '2px solid white' }} />
         </SectionHeader>
         <Container>
           <InnerDiv>
-            Thank you for visiting my portfolio! Please reach out with any questions. Looking forward to speaking with you!
+            Thank you for visiting my portfolio! Please feel free to connect with me via LinkedIn, or reach out with any questions. Looking forward to speaking with you!
+          </InnerDiv>
+          <InnerDiv>
+            <Link href="https://github.com/danaewalsh" target="blank">
+              <Icon className="devicon-github-original" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/dana-walsh/" target="blank">
+              <Icon className="devicon-linkedin-plain" />
+            </Link>
           </InnerDiv>
           <Form>
             <TextField
@@ -58,6 +66,21 @@ class ContactMe extends React.Component {
 
 export default ContactMe;
 
+const Icon = styled.i`
+  font-size: 3rem;
+  color: white;
+  &:hover {
+    color: #FEC200;
+  }
+`;
+
+const Link = styled.a`
+  margin: 10px;
+  &:hover {
+    text-decoration: none;
+  }
+`;
+
 const InnerDiv = styled.p`
   display: flex;
   justify-content: center;
@@ -79,10 +102,14 @@ const Form = styled.form`
 `;
 
 const Button = styled.button`
-  width: 10%;
+  width: 15%;
   background: #FEC200;
   border: none;
   border-radius: 10px;
   margin: 20px;
-  padding: 5px;
+  padding: 8px;
+  transition: all 0.5s ease;
+  &:hover {
+    box-shadow: 2px 2px white;
+  }
 `;

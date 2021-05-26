@@ -36,7 +36,7 @@ const TechStack = () => {
   return (
     <SectionDiv style={{ background: '#65BAD6' }}>
       <SectionHeader>
-        <Title style={{ color: 'white' }}>Technical Skills</Title>
+        <Title style={{ color: 'white' }}>Tech Skills</Title>
         <HeaderLine style={{ borderBottom: '2px solid white' }} />
       </SectionHeader>
       <SkillsContainer className="skills-container">{skills}</SkillsContainer>

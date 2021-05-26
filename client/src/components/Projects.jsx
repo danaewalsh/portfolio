@@ -15,7 +15,7 @@ const ProjectsList = () => {
   return (
     <SectionDiv id="projects" style={{ background: '#FEC200' }}>
       <SectionHeader>
-        <Title>Featured Projects</Title>
+        <Title>Projects</Title>
         <HeaderLine />
       </SectionHeader>
       <ProjectsContainer>{projects}</ProjectsContainer>
