@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "react-dev": "webpack -w",
-    "start": "nodemon ./server/index.js"
+    "dev-build": "webpack -w",
+    "dev-start": "nodemon ./server/index.js",
+    "prod-build": "webpack",
+    "start": "node ./server/index.js",
+    "heroku-postbuild": "webpack"
   },
   "repository": {
     "type": "git",
@@ -52,5 +55,8 @@
       "@babel/env",
       "@babel/react"
     ]
+  },
+  "engines": {
+    "node" : "14.15.4"
   }
 }
