@@ -56,7 +56,7 @@ class ContactMe extends React.Component {
               rows="4"
               variant="filled"
             />
-            <Button type="button">Send message</Button>
+            <Button type="button">Send!</Button>
           </Form>
         </Container>
       </SectionDiv>
