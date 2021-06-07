@@ -18,7 +18,7 @@ class ContactMe extends React.Component {
 
   render() {
     return (
-      <SectionDiv style={{ background: '#65BAD6' }}>
+      <SectionDiv id="contact" style={{ background: '#65BAD6' }}>
         <SectionHeader>
           <Title style={{ color: 'white' }}>Contact</Title>
           <HeaderLine style={{ borderBottom: '2px solid white' }} />
@@ -56,7 +56,7 @@ class ContactMe extends React.Component {
               rows="4"
               variant="filled"
             />
-            <Button type="button">Send message</Button>
+            <Button type="button">Send!</Button>
           </Form>
         </Container>
       </SectionDiv>

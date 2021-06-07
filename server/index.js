@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable max-len */
 // Import the express framework for our node server
 const express = require('express');
 // Import the path module from node to create absolute file paths for express static
@@ -11,4 +13,4 @@ const PORT = process.env.PORT || 3000;
 // Serve static files. Any requests for specific files will be served if they exist in the provided folder
 app.use(express.static(path.join(__dirname, '../client/dist')));
 // Start the server on the provided port
-app.listen(PORT, () => console.log('Listening on port: ' + PORT));
+app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
