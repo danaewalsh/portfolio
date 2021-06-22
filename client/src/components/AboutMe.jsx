@@ -23,10 +23,10 @@ const AboutMe = () => (
           Hello world!
         </InnerDiv>
         <InnerDiv>
-          My name is Dana Walsh, and I am a Full Stack Software Engineer. I am passionate about technology that makes a difference and tangibly improves the world. I am currently working on passion projects while on the look out for new employment opportunities. I have a diverse background ranging from tourism to tech sales to healthcare. I bring a unique and well rounded perspective to any team, and pride myself on being the ultimate team player.
+          I’m a full-stack software engineer passionate about building clean, intuitive, helpful applications that make a difference in the lives of others. I’ve held customer-facing roles in industries ranging from tourism to tech sales to healthcare which instilled in me a relentless focus on delighting the customer and allows me to bring a well rounded perspective to any conversation. I thrive in collaborative environments, and pride myself on being the ultimate team player.
         </InnerDiv>
         <InnerDiv>
-          When I'm not coding you'll find me in my garden or out on a hike, and I'm always accompanied by my two rescue dogs. Please feel free to reach out with any questions or if you just want to chat!
+          When I'm not coding you'll find me in my garden or out on a hike, and I'm always accompanied by my two rescue dogs. Reach out if you need someone to build beautiful applications the right way or if you just want to chat!
         </InnerDiv>
         <InnerDiv>
           <a
