@@ -24,7 +24,7 @@ class ContactMe extends React.Component {
         </SectionHeader>
         <Container>
           <InnerDiv>
-            Thank you for visiting my portfolio! Please feel free to connect with me via LinkedIn, or reach out with any questions. Looking forward to speaking with you!
+            Thank you for stopping by! Please feel free to connect with me via LinkedIn, or reach out with any questions. Looking forward to speaking with you!
           </InnerDiv>
           <InnerDiv>
             <Link href="https://github.com/danaewalsh" target="blank">
