@@ -1,6 +1,9 @@
+/* eslint-disable class-methods-use-this */
 /* eslint-disable max-len */
 /* eslint-disable import/extensions */
 import React from 'react';
+import emailjs from 'emailjs-com';
+
 import styled from 'styled-components';
 import TextField from '@material-ui/core/TextField';
 import SectionDiv from './sharedStyles/sectionDiv.js';
@@ -12,8 +15,22 @@ class ContactMe extends React.Component {
   constructor() {
     super();
     this.state = {
-      filled: null,
+
     };
+
+    this.handleSubmit = this.bind.handleSubmit(this);
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_q8ze6mx', 'template_13plrs7', e.target, 'dana.e.walsh@gmail.com')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+}
   }
 
   render() {
